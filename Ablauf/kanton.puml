@@ -1,0 +1,28 @@
+@startuml
+
+|GIS-Koord|
+
+start
+
+repeat
+
+  repeat
+  
+  :**Altdaten angleichen**\n\nAD;
+  
+  :**Produkte berechnen**\n\nAD + ND;
+  
+  :**Gesamtdaten prüfen**\n\nAD + ND;
+  
+  repeat while (fehlerfrei?) is (nein) not (ja)
+  
+|Fachstelle AfU / AWJF|
+
+:**Gesamtdaten gegenprüfen**\n\nAD + ND;
+  
+repeat while (fehlerfrei?) is (nein) not (ja)
+
+:**Daten publizieren**\n\nAD + ND;
+
+stop
+@enduml

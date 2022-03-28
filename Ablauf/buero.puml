@@ -1,0 +1,31 @@
+@startuml
+
+|Büro|
+
+start
+
+:**Daten beziehen**\n\nAD + ND;
+
+repeat
+
+  repeat
+  
+    :**Daten erarbeiten**\n\nND;
+    
+    :**Daten prüfen** (1)\n\nND;
+  
+  repeat while (fehlerfrei? (2)) is (nein) not (ja)
+  
+  :**Daten schicken**\n\nND;
+
+|Fachstelle AfU / AWJF|
+
+:**Daten gegenprüfen** (3)\n\nAD + ND;
+
+repeat while (fehlerfrei?) is (nein) not (ja)
+
+:**Daten ablegen** (4)\n\nND;
+
+stop
+
+@enduml
