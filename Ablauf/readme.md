@@ -21,6 +21,8 @@ Die technische Prüfung gegen das Modell erfolgt mittels frei verfügbarer Prüf
 * **(3):** Auch Gegenprüfung visuell und technisch.   
   * Frage: Sind für die Gegenprüfung Hinweise des Büros bezüglich der Altdaten notwendig?
 * **(4):** Falls schon entsprechende Daten gemäss neuem Modell existieren, müssen diese beim Ablegen gelöscht werden.
+* **(5):** Prozessquellenübergreifende Gefahrenkarte gemäss MGDM-Dokumentation Kapitel "3.3.6 Klasse synoptic_hazard_area" "Synoptik I"
+  * Korrekt? Oder Klasse "hazard_area"?
 
 ## Angleich Altdaten (durch GIS-Koordinatoren AfU / AWJF)
 
