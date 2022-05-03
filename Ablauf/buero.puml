@@ -24,7 +24,15 @@ repeat
 
 repeat while (fehlerfrei?) is (nein) not (ja)
 
-:**Daten ablegen** (4)\n\nND;
+:**GK-Daten berechnen** (4)\n\nND;
+
+:**Daten ablegen** (5)\n\nND;
+
+:**GK-Daten schicken**;
+
+|Büro|
+
+:**Aus GK-Daten Plan drucken**;
 
 stop
 
